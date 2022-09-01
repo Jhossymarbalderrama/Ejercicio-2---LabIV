@@ -35,7 +35,7 @@ export class LoginComponent implements OnInit {
       campoVacio = true;      
     }
 
-    if(this.nombre == null || this.nombre == undefined || this.nombre == ""){
+    if(this.clave == null || this.clave == undefined || this.clave == ""){
       campoVacio = true;
     }
     
