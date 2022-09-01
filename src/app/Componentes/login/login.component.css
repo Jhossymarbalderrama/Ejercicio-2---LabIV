@@ -14,26 +14,20 @@
   	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
 			0 10px 10px rgba(0,0,0,0.22);
 	overflow: hidden;
-	max-width: 100%;
+	max-width: 100%;	
 }
 
-form {
-	background-color: #FFFFFF;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	padding: 0 50px;
-	height: 100%;
-	text-align: center;
+p{
+	color: rgb(165, 160, 160);
+	padding: 12px 10px;
 }
 
 input {
 	background-color: #eee;
 	border: none;
-	padding: 12px 15px;
-	margin: 8px 0;
-	width: 100%;
+	padding: 10px;
+	margin: 10px;
+	width: 95%;	
 }
 
 button {

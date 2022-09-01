@@ -1,10 +1,10 @@
 <div class="container" id="container">
 	<div class="box">
-		<form action="#">
-			<h1>Iniciar Sesion</h1>
-			<input type="email" placeholder="Correo" />
-			<input type="password" placeholder="Contraseña" />
-			<button>Aceptar</button>
-		</form>
+		<h1>Iniciar Sesion</h1>
+		<input type="text" [(ngModel)]="nombre" placeholder="Nombre" />
+		<input type="password" [(ngModel)]="clave" placeholder="Contraseña" />
+		<button (click)="login()">Aceptar</button>
+		<p>Campos Vacios -> ErrorComponen</p>
+		<p>Campos llenos -> LoginComponen</p>
 	</div>	
 </div>
